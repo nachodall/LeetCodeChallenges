@@ -3,6 +3,7 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+# solution made for practicing INTEGER -> ARRAY -> LINKEDLIST 
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         def getNumber(node1: Optional[ListNode]) -> int:
